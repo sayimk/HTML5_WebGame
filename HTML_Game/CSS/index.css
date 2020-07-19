@@ -1,0 +1,281 @@
+/*Font file references*/
+@font-face{
+    font-family: 'Dimbo Italic';
+    src: url('/fonts/Dimbo_Italic.ttf');
+}
+
+@font-face{
+    font-family: 'TitanOne-Regular';
+    src: url('/fonts/TitanOne-Regular.ttf');
+}
+
+/*safe positions*/
+
+#safe_1 {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+
+#safe_2 {
+    position: absolute;
+    left: 190px;
+    top: 150px;
+}
+
+#safe_3 {
+    position: absolute;
+    left: 360px;
+    top: 150px;
+}
+
+#safe_4 {
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+
+#safe_5 {
+    position: absolute;
+    left: 190px;
+    top: 300px;
+}
+
+#safe_6 {
+    position: absolute;
+    left: 360px;
+    top: 300px;
+}
+
+#safe_7 {
+    position: absolute;
+    left: 20px;
+    top: 450px;
+}
+
+#safe_8 {
+    position: absolute;
+    left: 190px;
+    top: 450px;
+}
+
+#safe_9 {
+    position: absolute;
+    left: 360px;
+    top: 450px;
+}
+
+#dial {
+    position: absolute;
+    left: 605px;
+    top: 327px;
+}
+
+#dialBG{
+    position: absolute;
+    left: 595px;
+    top: 290px;
+}
+
+/*dual led positions*/
+
+#LEDArray1{
+    position: absolute;
+    left: 600px;
+    top: 275px;
+}
+
+#LEDArray2{
+    position: absolute;
+    left: 761px;
+    top: 275px;
+}
+
+#spin_button{
+    position: absolute;
+    border-radius: 50px;
+    left: 702.5px;
+    top: 425px;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    
+}
+
+#screenBG{
+    position: absolute;
+    left: 580px;
+    top: 190px;
+}
+
+#screen{
+    position: absolute;
+    left: 602.5px;
+    top: 193px;
+}
+
+#instructions{
+    font-family: 'Dimbo Italic';
+    position: absolute;
+    left: 80px;
+    top: -10px;
+    font-size: 44px;
+}
+
+#mainText{
+    font-family: 'Dimbo Italic';
+    font-weight: lighter;
+    position: absolute;
+    left: 240px;
+    top: -45px;
+    font-size: 90px;
+}
+#screenText{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 635px;
+    top: 120px;
+    font-size: 70px;
+    color: white;
+}
+
+/*item (note,gold,etc) positions*/
+
+#item_1{
+    position: absolute;
+    left: 43px;
+    top: 171px;
+}
+
+#item_2{
+    position: absolute;
+    left: 213px;
+    top: 171px;
+}
+
+#item_3{
+    position: absolute;
+    left: 383px;
+    top: 171px;
+}
+
+#item_4{
+    position: absolute;
+    left: 43px;
+    top: 321px;
+}
+
+#item_5{
+    position: absolute;
+    left: 213px;
+    top: 321px;
+}
+
+#item_6{
+    position: absolute;
+    left: 383px;
+    top: 321px;
+}
+
+#item_7{
+    position: absolute;
+    left: 43px;
+    top: 471px;
+}
+
+#item_8{
+    position: absolute;
+    left: 213px;
+    top: 471px;
+}
+
+#item_9{
+    position: absolute;
+    left: 383px;
+    top: 471px;
+}
+
+/*item text positions*/
+
+#item1_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 105px;
+    top: 190px;
+    font-size: 40px;
+    color: white;
+}
+
+#item2_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 275px;
+    top: 190px;
+    font-size: 40px;
+    color: white;
+}
+
+#item3_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 445px;
+    top: 190px;
+    font-size: 40px;
+    color: white;
+}
+
+#item4_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 102px;
+    top: 340px;
+    font-size: 40px;
+    color: white;
+}
+
+#item5_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 275px;
+    top: 340px;
+    font-size: 40px;
+    color: white;
+}
+
+#item6_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 445px;
+    top: 340px;
+    font-size: 40px;
+    color: white;
+}
+
+#item7_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 102px;
+    top: 492px;
+    font-size: 40px;
+    color: white;
+}
+
+#item8_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 275px;
+    top: 492px;
+    font-size: 40px;
+    color: white;
+}
+
+#item9_text{
+    font-family: 'TitanOne-Regular';
+    position: absolute;
+    left: 445px;
+    top: 492px;
+    font-size: 40px;
+    color: white;
+}
